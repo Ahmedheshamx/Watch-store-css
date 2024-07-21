@@ -83,6 +83,7 @@
    .main-page {
      flex-direction: column; 
      height: auto; 
+     margin-top: 60px;
    }
  
    .main-page img {
@@ -98,7 +99,13 @@
    }
  
    .main-page-left h1 {
-     font-size: 2.5rem; 
+     font-size: 1.7rem; 
+     font-weight: 800;
+   }
+   .main-page-left p{
+      font-size: .7rem;
+      color: rgba(107, 104, 104, 0.897);
+      margin-bottom: 50px;
    }
  }
  
