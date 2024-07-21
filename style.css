@@ -87,9 +87,13 @@
    }
  
    .main-page img {
+      all: unset;
+
+      width: 50%;
       position:relative;
-      top: 7px;
-      left: -4%;
+      margin: 10px 23%;
+      top: 1rem;
+      
       
    }
  
