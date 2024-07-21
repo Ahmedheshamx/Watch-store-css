@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.collapse a:hover {
+    background-color: #c91e1ea9;  
+    cursor: pointer;     
+}
+
+.navbar {
+
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    padding: 10px;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.main-page {
+   background-color: #eee;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   height: 850px;
+   padding: 20px; 
+   margin-bottom: 80px;
+
+ }
+ 
+ .main-page img {
+   width: 100%; 
+   max-width: 300px; 
+   height: auto; 
+   position: absolute;
+   top: 0;
+   right: 150px;
+ }
+ 
+ .main-page-left {
+   width: 100%; 
+   max-width: 600px; 
+ }
+ 
+ .main-page-left h1 {
+   font-size: 4.5rem; 
+   font-weight: 600;
+   margin-bottom: 20px;
+ }
+ 
+ .main-page-left p {
+   font-size: 1rem; 
+ }
+ 
+ .main-page-left button {
+   padding: 10px 30px;
+   margin-top: 20px;
+   background: linear-gradient(to right, #474e53e5 50%, #e74c3c 50%);
+   background-size: 200% 100%;
+   background-position: right bottom;
+   transition: background-position 0.3s ease;
+   border: none;
+ }
+ 
+ .main-page-left button:hover {
+   background-position: left bottom;
+ }
+ 
+ @media (max-width: 768px) {
+   .main-page {
+     flex-direction: column; 
+     height: auto; 
+   }
+ 
+   .main-page img {
+      position: relative;
+      top: -10px;
+      left: 5%;
+      margin-top: 20px; 
+   }
+ 
+   .main-page-left {
+     max-width: 100%;
+     text-align: center; 
+   }
+ 
+   .main-page-left h1 {
+     font-size: 2.5rem; 
+   }
+ }
+ 
+
+ /* /////////////////////////// */
+
+
+.ahmed {display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top:20px ;}
+   
+
+
+.ahmed div {
+    text-align: center;
+    margin-top: 40px;
+    margin: auto;
+
+ }
+ 
+ .ahmed div p{
+    color: red;
+
+ }
+ .ahmed img {
+    transition: transform 0.3s ease;
+    max-width: 96%;
+  
+    
+ }
+ .ahmed img:hover {
+    transform: scale(1.02) ;
+ }
+/* //////////////////////////////////////// */
+ 
+.product  {
+   margin-top: 70px;
+ }
+ 
+ .product img {
+   max-width: 100%;
+   height: auto;
+   transition:0.3s ease;
+   margin-top: 20px;
+
+ }
+
+ .product img:hover{
+   transform: scale(1.02) ;
+ }
+ .product img:nth-child(2){
+   margin-top: 20px;
+ }
+ 
+
+/* /////////////////////////////////////////////////////////// */
+
+.product-card {
+   position: relative;
+   overflow: hidden;
+   border-radius: 0;
+   border: none;
+}
+
+.Popular-Items {
+   margin-top: 70px;
+   text-align: center;
+}
+
+
+.Popular-Items h3{
+   font-size: 3rem;
+   font-weight: 800;
+   margin-bottom: 20px;
+}
+.Popular-Items  p{
+   font-weight: 600;
+   color: rgba(107, 104, 104, 0.897);
+   margin-bottom: 60px;
+
+}
+
+.Popular-Items  img{
+   width: 100%;
+   margin-bottom:20px ;
+   transition: 0.3s ease;
+   border-bottom:4px solid rgba(255, 0, 0, 0.445);
+
+}
+
+.Popular-Items img:hover{
+   transform: scale(1.05) ;
+   border-bottom:none;
+
+}
+
+
+.add-to-cart-btn {
+   position: absolute;
+   bottom: 50px;
+   left: 50%;
+   transform: translateX(-50%);
+   display: none;
+   width: 100%;
+   padding: 20px;
+   border-radius: 0;
+   background-color: #b43022a8;
+   color: white;
+   font-size: 20px;
+   
+}
+
+.product-card:hover .add-to-cart-btn {
+   display: block;
+} 
+
+/* ///////////////////////////////////////////////////////////// */
+
+.red-card  {
+   margin-top:60px ;
+   padding: 20px ;
+   background-color: #e74c3c;
+}
+.red-card p{
+   margin: 10px 0px;
+   font-weight: 100;
+   color: rgba(214, 199, 199, 0.89);
+   font-size: 12px;
+}
+
+.red-card h6{
+   font-weight: 400;
+   font-size: 18px;
+   color: white;
+}
+
+.red-card i {
+   color: white;
+   font-size: 40px;
+   font-weight: 600px;
+   margin-bottom: 10px;
+}
+
+/* //////////////////////////////////////////////// */
+
+
+.end {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   text-align: start;
+}
+.end img , .end img:hover {
+   margin-bottom: 20px;
+}
+
+.end p {
+   font-size: 12px;  
+   color: rgba(136, 133, 133, 0.897);
+
+}
+
+
+.end h6 {
+   font-size: 17px;
+   font-weight: 600;
+   text-align: start;
+}
+.end ul{
+   list-style: none;
+   padding: 0;
+   
+   
+}
+
+.end li{  
+   margin-top: 10px;
+}
+.end li a{
+   text-decoration: none;
+   color: rgba(136, 133, 133, 0.897);
+}
